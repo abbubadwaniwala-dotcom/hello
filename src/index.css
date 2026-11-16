@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+@import "leaflet/dist/leaflet.css";
+ 
+
+@theme {
+  /* ===== Brand / palette (mirrors MUI defaults) ===== */
+  --color-primary-main: #1976d2;
+  --color-primary-dark: #115293;
+  --color-primary-light: #4791db;
+  --color-primary-contrast: #ffffff;
+
+  --color-background-paper: #ffffff;
+  --color-background-default: #f5f5f5;
+
+  --color-text-primary: rgba(0, 0, 0, 0.87);
+  --color-text-secondary: rgba(0, 0, 0, 0.6);
+  --color-text-disabled: rgba(0, 0, 0, 0.38);
+
+  --color-divider: rgba(0, 0, 0, 0.12);
+  --color-action-hover: rgba(0, 0, 0, 0.04);
+  --color-action-selected: rgba(0, 0, 0, 0.08);
+
+  /* ===== Easing (MUI "material" curve) ===== */
+  --ease-material: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ===== Sidebar sizing tokens ===== */
+  --spacing-sidebar: 240px;
+  --spacing-sidebar-collapsed: 72px;
+}
